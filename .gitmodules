@@ -1,0 +1,6 @@
+[submodule "microservices/config"]
+	path = microservices/config
+	url = https://github.com/fabriciolfj/spring-cloud-config-payments.git
+[submodule "microservices/gateway"]
+	path = microservices/gateway
+	url = https://github.com/fabriciolfj/spring-cloud-payments-gwt.git
