@@ -4,3 +4,12 @@
 [submodule "microservices/gateway"]
 	path = microservices/gateway
 	url = https://github.com/fabriciolfj/spring-cloud-payments-gwt.git
+[submodule "microservices/payment-card"]
+	path = microservices/payment-card
+	url = https://github.com/fabriciolfj/spring-cloud-payment-card.git
+[submodule "microservices/fraud"]
+	path = microservices/fraud
+	url = https://github.com/fabriciolfj/spring-cloud-payment-fraud.git
+[submodule "microservices/config-files"]
+	path = microservices/config-files
+	url = https://github.com/fabriciolfj/spring-cloud-config-files.git
