@@ -88,6 +88,14 @@ services:
     ports:
       - "8500:8500"
 
+  mongo:
+    image: mongo:7.0
+    ports:
+      - "27019:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password123
+
 networks:
   kafka-net:
     name: kafka-net
