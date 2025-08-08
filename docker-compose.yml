@@ -89,9 +89,9 @@ services:
       - "8500:8500"
 
   mongo:
-    image: mongo:7.0
+    image: mongo
     ports:
-      - "27019:27017"
+      - "27017:27017"
 
 networks:
   kafka-net:
